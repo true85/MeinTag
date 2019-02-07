@@ -1,22 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color:none;
+  background-image: url('./img/back.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+}
+/*
+div{
+  background-color: #eee;
+} */
 body{
   margin:0;
 }
 a {
   color:black;
 }
+.title {
+  color: green;
+}
 h1 {
   font-size:45px;
+  font-family: '돋움';
   text-align: center;
-  border-bottom:1px solid gray;
+  border-bottom:4px solid gray;
   margin:0;
   padding:20px;
 }
 ol{
-  border-right:1px solid gray;
+  border-right:2px solid gray;
   width:100px;
   margin:0;
   padding:20px;
 }
+.float-container{
+  width: 320px;
+  border: 2px solid #09c;
+}
+.float-container img{
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid #09c;
+}
+.rot{
+  transform: rotate(90deg);
+}
+.rott{
+  transform: rotate(180deg);
+}
+#woleft{
+  float: left;
+  padding: 30px;
+}
+li:hover{color: yellow}
 #grid{
   display: grid;
   grid-template-columns: 150px 1fr;
