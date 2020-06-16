@@ -19,11 +19,11 @@ a {
   color:black;
 }
 .title {
-  color: green;
+  color: plum;
 }
 h1 {
   font-size:45px;
-  font-family: '돋움';
+  font-family: '돋움',serif;
   text-align: center;
   border-bottom:4px solid gray;
   margin:0;
@@ -34,6 +34,9 @@ ol{
   width:100px;
   margin:0;
   padding:20px;
+}
+span.list{
+  none;
 }
 .float-container{
   width: 320px;
@@ -55,7 +58,7 @@ ol{
   float: left;
   padding: 30px;
 }
-li:hover{color: yellow}
+ol li:hover{color: yellow}
 #grid{
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -76,4 +79,7 @@ li:hover{color: yellow}
   h1 {
     border-bottom:none;
   }
+}
+table, th, td {
+  border: 1px solid black;
 }
